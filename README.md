@@ -1,60 +1,36 @@
-# 🧮 Standard Calculator
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-A **functional and stylish calculator** built using **HTML**, **Tailwind CSS**, and **JavaScript**.  
-This project simulates a standard calculator with basic arithmetic operations, responsive design, and smooth UI interactions using utility-first styling.
+## Getting Started
 
----
+First, run the development server:
 
-## 📌 Summary
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-This marks another exciting step in my web development journey:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- Built using **HTML**, **Tailwind CSS**, and **JavaScript**
-- Implemented real-time UI updates using **event handling and DOM manipulation**
-- Strengthened understanding of **JavaScript logic** and **UI state management**
-- Replaced traditional CSS with **Tailwind utility classes** for faster development
-- Designed with simplicity, usability, and full responsiveness in mind
-- **Suggestions and contributions are most welcome!**
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
----
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## 🚀 Deployment
+## Learn More
 
-🔗 [Live Demo on Netlify](https://ayeshascalculator.netlify.app/)
+To learn more about Next.js, take a look at the following resources:
 
----
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## ⚙️ Features
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-- ➕ Basic operations: **Addition**, **Subtraction**, **Multiplication**, **Division**
-- 🔢 **Live input handling** and real-time calculation logic
-- ⚡ Responsive and modern UI using **Tailwind’s grid & flex utilities**
-- 💥 Simple error handling for invalid operations (e.g., division by zero)
-- 🎨 Hover effects and color-coded buttons for clarity and aesthetics
+## Deploy on Vercel
 
----
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## 🛠 Technologies Used
-
-- **HTML5** – Semantic layout of the calculator interface  
-- **Tailwind CSS** – Utility-first styling for fast and consistent UI development  
-- **JavaScript (ES6+)** – Event-driven logic, dynamic UI updates, and calculations  
-
----
-
-## 📱 Responsiveness
-
-- Fully responsive across all major screen sizes
-- Optimized for both **mobile** and **desktop** devices
-- Layout scales and adjusts using **Tailwind breakpoints and flex/grid system**
-
----
-
-## 🙏 Acknowledgements
-
-- UI inspired by basic calculator apps from Windows and Android
-- Special thanks to the open-source Tailwind CSS community
-
----
-
-&copy; 2025 **Standard Calculator** – Built with 🧠 and ❤️ using **Tailwind CSS** for learning and growth.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
